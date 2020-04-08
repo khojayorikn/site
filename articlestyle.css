@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffba;
+  font-family: "Tahoma", sans-serif;
+}
+
+li {
+  background: skyblue;
+  width: 100px;
+  height: 20px;
+  padding: 4px;
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  font-family: trajan-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  list-style: none;
+}
+
+img {
+  width: 10%;
+  height: 10%;
+  margin-left: 20px;
+}
+
+p {
+  width: 800px;
+  background: lightyellow;
+  padding: 10px;
+}
+
+h1 {
+  width: 300px;
+  background: skyblue;
+  text-align: center;
+  font-size: 25px;
+  margin: 0px;
+}
+
+h3 {
+  width: 300px;
+  background: pink;
+  font-size: 20px;
+}
+
+h2 {
+  width: 600px;
+  background: palegreen;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.links {
+  background: black;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+}
+.link {
+margin: 0px;
+
+
+}
+a:hover {
+
+  color: green;
+}
+.taika {
+
+  margin-left: 65px;
+}

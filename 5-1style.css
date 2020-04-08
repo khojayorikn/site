@@ -1,0 +1,147 @@
+body {
+  margin:0;
+  padding:0;
+  background: #24324F;
+}
+
+
+p {
+color: #30BBD9;
+font-size: 28px;
+font-family: 'Jim Nightshade', cursive;
+margin:0px;
+text-align: center;
+
+}
+h1 {
+  font-size: 100px;
+  margin:0;
+  padding:0px 0px 0px 5px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Jim Nightshade', cursive;
+  text-align: center;
+  color: #FFD769;
+  position: fixed;
+  left:50;
+
+}
+a{
+color:black;
+text-decoration: none;
+
+}
+h3 {
+color:white;
+font-family: 'Jim Nightshade', cursive;
+text-align: center;
+font-size: 300px;
+}
+
+a:hover{
+  color:red;
+}
+img {
+max-width: 100%;
+max-height: 100%;
+}
+
+
+ul {
+  text-align: center;
+  color:blue;
+  font-family: 'Jim Nightshade', cursive;
+  font-size: 25px;
+ }
+.Mercy {
+  color: white;
+  font-weight: bold;
+}
+.Mercy:hover {
+animation: 1s colorchange forwards;
+
+}
+.Pity {
+  color: white;
+  font-weight: bold;
+}
+.Pity:hover {
+animation: 1s colorchange forwards;
+}
+.Love {
+  color: white;
+  font-weight: bold;
+
+}
+.Love:hover {
+animation: 1s colorchange forwards;
+}
+.Peace {
+  color: white;
+  font-weight: bold;
+
+}
+.Peace:hover {
+animation: 1s colorchange forwards;
+}
+.bigline {
+margin-top: 200px;
+  font-size: 100px;
+}
+
+.bot {
+margin-bottom: 200px;
+
+}
+
+.title {
+background: #24324F;
+position: fixed;
+top:0%;
+width: 100%;
+display: flex;
+align-items: center;
+height: 175px;
+justify-content: center;
+}
+
+
+@keyframes colorchange {
+0% {color:white;}
+100% {color:#FF3E4C;}
+
+}
+
+.god:hover {
+animation: 1s godchange forwards;
+
+}
+
+
+@keyframes godchange {
+0% {color:#30BBD9;}
+100% {color:lightyellow;}
+
+}
+
+.buttons {
+display: flex;
+flex-direction: row;
+position: absolute;
+z-index: 99;
+}
+
+.homebutton {
+  background: skyblue;
+  width: 50px;
+  height: 20px;
+  padding: 4px;
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  font-family: trajan-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  list-style: none;
+}

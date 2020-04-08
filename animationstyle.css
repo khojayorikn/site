@@ -1,0 +1,61 @@
+.flex {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: purple;
+}
+
+
+}
+body {
+width: 100%;
+height:100%;
+
+}
+.circle {
+width:30vw;
+height:30vw;
+background: red;
+border-radius: 50%;
+animation: pulse 1s ease infinite alternate;
+/* animation: spin 3s infinite linear alternate; */
+}
+.square {
+width:30vw;
+height:30vw;
+background: red;
+animation: pulse 1s infinite ease-in-out alternate;
+/* animation: spin 3s infinite linear alternate; */
+}
+
+@keyframes pulse {
+  0% {transform: scale(.5);
+      background:red;}
+  25%{}
+  100% {transform: scale(1);
+      background:yellow;}
+}
+@keyframes spin {
+  0% {transform: rotate(0);}
+  100% {transform: rotate(360deg);}
+}
+
+.runner {
+height:20px;
+width:100px;
+background: blue;
+position: fixed;
+bottom: 0;
+left:0;
+animation: run 2s infinite linear alternate;
+}
+
+@keyframes run {
+  0% {transform: translateX(0vw); }
+  100% {transform: translateX(100vw);}
+}

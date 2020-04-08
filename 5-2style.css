@@ -1,0 +1,188 @@
+body {
+  margin:0;
+  padding:0;
+  background: #F2B279;
+  font-family: worker,serif;
+font-weight: 700;
+font-style: normal;
+}
+
+
+p {
+color: #30BBD9;
+font-size: 200px;
+margin:0px;
+text-align: center;
+animation: 20s pchange infinite alternate;
+margin-bottom: 200px;
+
+}
+h1 {
+  font-size: 100px;
+  margin:0;
+  padding:0px 0px 0px 5px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  text-align: center;
+  color: #FFD769;
+  position: fixed;
+  left:50;
+  animation: 5s titlechange infinite alternate;
+
+
+}
+a{
+color:black;
+text-decoration: none;
+
+}
+h3 {
+color:white;
+text-align: center;
+font-size: 100px;
+font-family: san-rafael, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+a:hover{
+  color:red;
+}
+img {
+max-width: 100%;
+max-height: 100%;
+}
+
+
+ul {
+  text-align: center;
+  color:blue;
+  font-size: 25px;
+ }
+.Mercy {
+  color: white;
+  font-weight: bold;
+}
+.Mercy:hover {
+animation: 1s colorchange forwards;
+
+}
+.Pity {
+  color: white;
+  font-weight: bold;
+}
+.Pity:hover {
+animation: 1s colorchange forwards;
+}
+.Love {
+  color: white;
+  font-weight: bold;
+
+}
+.Love:hover {
+animation: 1s colorchange forwards;
+}
+.Peace {
+  color: white;
+  font-weight: bold;
+
+}
+.Peace:hover {
+animation: 1s colorchange forwards;
+}
+.bigline {
+margin-top: 50px;
+  font-size: 100px;
+  font-family: san-rafael, sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-bottom: 50px;
+}
+
+.bot {
+margin-bottom: 200px;
+
+}
+
+.title {
+background: #F2B279;
+position: fixed;
+width: 100%;
+display: flex;
+align-items: center;
+height: 150px;
+justify-content: center;
+animation: 5s titlechange infinite alternate;
+}
+
+
+@keyframes colorchange {
+0% {color:white;}
+100% {color:#04ABDF;}
+
+}
+
+.god:hover {
+animation: 1s godchange forwards;
+
+}
+
+
+@keyframes godchange {
+0% {color:#30BBD9;}
+100% {color:lightyellow;}
+
+}
+
+/* @keyframes titlechange {
+0% {background:#30BBD9;
+color:#FFD769;}
+100% {background:lightyellow;
+color:black;}
+
+} */
+
+
+.Human:hover {
+animation: 1s humanchange forwards;
+
+
+}
+
+@keyframes humanchange {
+0% {color:#30BBD9;}
+100% {color:#A65D03;}
+
+}
+
+@keyframes bgchange {
+0% {background:#24324F;}
+100% {background:#F2D230;}
+
+}
+
+@keyframes pchange {
+0% {}
+100% {color:#ECE62F;}
+
+}
+.buttons {
+display: flex;
+flex-direction: row;
+position: absolute;
+z-index: 99;
+}
+.homebutton {
+  background: skyblue;
+  width: 50px;
+  height: 20px;
+  padding: 4px;
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  font-family: trajan-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  list-style: none;
+}

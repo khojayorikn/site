@@ -1,0 +1,28 @@
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: black;
+  }
+
+  #container {
+    margin: 55vh 0;
+    padding: 50px;
+  }
+
+  #block {
+    padding: 10px;
+    font-family: Helvetica;
+    border-radius: 100px;
+    text-align: center;
+  }
+
+h1 {
+  width:100vw;
+  text-align: center;
+  color: white;
+}
+
+.one {
+  
+}

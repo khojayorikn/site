@@ -1,0 +1,86 @@
+body {
+  margin:0;
+  padding:0;
+  background: #24324F;
+}
+
+
+p {
+color: #30BBD9;
+font-size: 28px;
+font-family: 'Jim Nightshade', cursive;
+margin:0px;
+text-align: center;
+
+}
+h1 {
+  font-size: 50px;
+  margin:0;
+  padding:0px 0px 0px 5px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Jim Nightshade', cursive;
+  text-align: center;
+  color: #FFD769;
+
+}
+a{
+color:black;
+text-decoration: none;
+
+}
+h3 {
+color:#FF3E4C;
+font-family: 'Jim Nightshade', cursive;
+text-align: center;
+font-size: 30px;
+
+}
+
+a:hover{
+  color:red;
+}
+img {
+max-width: 100%;
+max-height: 100%;
+}
+
+
+ul {
+  text-align: center;
+  color:blue;
+  font-family: 'Jim Nightshade', cursive;
+  font-size: 25px;
+ }
+.Mercy {
+  color: #FF3E4C;
+  font-weight: bold;
+}
+.Pity {
+  color: #FF3E4C;
+  font-weight: bold;
+}
+.Love {
+  color: #FF3E4C;
+  font-weight: bold;
+}
+
+.Peace {
+  color: #FF3E4C;
+  font-weight: bold;
+}
+
+.homebutton {
+  background: skyblue;
+  width: 50px;
+  height: 20px;
+  padding: 4px;
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  font-family: trajan-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  list-style: none;
+}

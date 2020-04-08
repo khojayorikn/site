@@ -1,0 +1,167 @@
+body {
+  margin:0;
+  padding:0;
+  background: #419FD9;
+  font-family: eskapade,serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+p {
+color: #05DBF2;
+font-size: 75px;
+margin:auto;
+text-align: left;
+animation: 20s pchange infinite alternate;
+margin-bottom: 10px;
+background: #05DBF2;
+width: 75%;
+border-left: blue 15px solid;
+padding-left: 10px;
+border-radius: 75px;
+display: flex;
+align-items: center;
+padding-bottom: 10px;
+
+}
+h1 {
+  font-size: 100px;
+  margin:0;
+  padding:0px 0px 0px 5px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  color: #026873;
+  animation: 5s titlechange infinite alternate;
+  margin: auto;
+
+
+}
+
+h3 {
+  background: black;
+color:white;
+text-align: right;
+font-size: 75px;
+border-right: blue 15px solid;
+border-radius: 75px;
+padding-right: 20px;
+padding-bottom: 10px;
+width: 75%;
+margin: auto;
+}
+
+a:hover{
+  color:red;
+}
+
+
+ul {
+  text-align: center;
+  color:blue;
+  font-size: 25px;
+ }
+/* .Mercy {
+  color: white;
+  font-weight: bold;
+} */
+.Mercy:hover {
+animation: 1s colorchange forwards;
+
+}
+/* .Pity {
+  color: white;
+  font-weight: bold;
+} */
+.Pity:hover {
+animation: 1s colorchange forwards;
+}
+/* .Love {
+  color: white;
+  font-weight: bold;
+
+} */
+.Love:hover {
+animation: 1s colorchange forwards;
+}
+/* .Peace {
+  color: white;
+  font-weight: bold;
+
+} */
+.Peace:hover {
+animation: 1s colorchange forwards;
+}
+.bigline {
+}
+
+
+.title {
+width: 100%;
+display: flex;
+align-items: center;
+height: 150px;
+justify-content: center;
+animation: 5s titlechange infinite alternate;
+}
+
+
+
+}
+
+.god:hover {
+animation: 1s godchange forwards;
+
+}
+
+
+@keyframes godchange {
+0% {color:#30BBD9;}
+100% {color:lightyellow;}
+
+}
+
+
+
+.Human:hover {
+animation: 1s humanchange forwards;
+background-gr
+
+
+}
+
+@keyframes humanchange {
+0% {color:#30BBD9;}
+100% {color:#731753;}
+
+}
+
+@keyframes bgchange {
+0% {background:#05DBF2;}
+100% {background:#F2059F;}
+
+}
+
+
+p:hover {
+  animation: 2s bgchange forwards;
+}
+.buttons {
+display: flex;
+flex-direction: row;
+
+}
+.homebutton {
+  background: skyblue;
+  width: 50px;
+  height: 20px;
+  padding: 4px;
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  font-family: trajan-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  list-style: none;
+}

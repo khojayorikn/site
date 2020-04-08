@@ -1,0 +1,43 @@
+body {
+  background: black;
+}
+
+.runner {
+height:20px;
+width:100px;
+background: blue;
+position: fixed;
+bottom: 0;
+left:0;
+animation: run 2s infinite linear alternate;
+/* display: block; */
+}
+
+
+@media screen and (min-width:801px) {
+  @keyframes run {
+    0% {transform: translateX(0vw); }
+    100% {transform: translateX(100vw);}
+  }
+
+  .runner {
+    display: inline-block;
+    background:red;
+  }
+}
+
+@media screen and (max-width:800px) {
+    @keyframes run {
+      0% {transform: translateX(0vw); }
+      50% {transform: translateX(96vw);
+      width:100px; height:20px;}
+      51% {transform: translateX(96vw);
+      width:20px; height:100px;}
+      100% {transform: translate(96vw, -100vh);
+      width:20px; height:100px;}
+    }
+
+  .runner {
+    display: block;
+  }
+}
