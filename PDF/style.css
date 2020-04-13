@@ -1,0 +1,15 @@
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+iframe {
+  width:50vw;
+  height:100vh;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
