@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kom Khojayori</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script>
+    $(document).ready(function() {
+
+      $(".slideone").hover(
+        function() {
+          $(".one").animate({
+            width: "800px"
+          });
+        },
+        function() {
+          $(".one").animate({
+            width: "000px"
+          });
+        }
+      );
+      $(".slidetwo").hover(
+        function() {
+          $(".two").animate({
+            width: "800px"
+          });
+        },
+        function() {
+          $(".two").animate({
+            width: "000px"
+          });
+        }
+      );
+      $(".slidethree").hover(
+        function() {
+          $(".three").animate({
+            width: "800px"
+          });
+        },
+        function() {
+          $(".three").animate({
+            width: "000px"
+          });
+        }
+      );
+      $(".slidefour").hover(
+        function() {
+          $(".four").animate({
+            width: "800px"
+          });
+        },
+        function() {
+          $(".four").animate({
+            width: "000px"
+          });
+        }
+      );
+
+
+
+
+    });
+  </script>
+</head>
+
+<body>
+  <h1 class="name"> Kom Khojayori </h1>
+  <div class="menu">
+
+
+    <div class="button-about">
+      <svg width="400px" viewBox="0 0 552.5 125.83" class="shape">
+        <a href="https://komkhojayori.com" class="menubutton slideone">
+          <polygon class="cls-1" points="0 0 426.67 0 552.5 125.83 0 125.83 0 0" />
+
+          <text x="40%" y="55%" fill="#FFFFFF" text-anchor="middle" alignment-baseline="middle" class="menutext">
+
+            About
+          </text>
+        </a>
+      </svg>
+      <div class="box one">Lorem ipsum dolor sit amet...</div>
+    </div>
+
+    <div class="button-portfolio">
+      <svg width="400px" viewBox="0 0 552.5 125.83" class="shape">
+        <a href="https://komkhojayori.com" class="menubutton slidetwo">
+          <polygon class="cls-1" points="0 0 426.67 0 552.5 125.83 0 125.83 0 0" />
+
+          <text x="40%" y="55%" fill="#FFFFFF" text-anchor="middle" alignment-baseline="middle" class="menutext">
+
+            Portfolio
+          </text>
+        </a>
+      </svg>
+      <div class="box two">Lorem ipsum dolor sit amet...</div>
+    </div>
+
+    <div class="button-contact">
+      <svg width="400px" viewBox="0 0 552.5 125.83" class="shape">
+        <a href="https://komkhojayori.com" class="menubutton slidethree">
+          <polygon class="cls-1" points="0 0 426.67 0 552.5 125.83 0 125.83 0 0" />
+
+          <text x="40%" y="55%" fill="#FFFFFF" text-anchor="middle" alignment-baseline="middle" class="menutext">
+
+            Contact
+          </text>
+        </a>
+      </svg>
+      <div class="box three">Lorem ipsum dolor sit amet...</div>
+    </div>
+
+    <div class="button-web">
+      <svg width="400px" viewBox="0 0 552.5 125.83" class="shape">
+        <a href="https://komkhojayori.com" class="menubutton slidefour">
+          <polygon class="cls-1" points="0 0 426.67 0 552.5 125.83 0 125.83 0 0" />
+
+          <text x="40%" y="55%" fill="#FFFFFF" text-anchor="middle" alignment-baseline="middle" class="menutext web">
+
+            Handmade Web
+          </text>
+        </a>
+      </svg>
+      <div class="box four">Lorem ipsum dolor sit amet...</div>
+    </div>
+
+  </div>
+
+  <video autoplay loop muted preload="auto" class="bg">
+    <source src="bg2.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+</body>
+
+</html>
