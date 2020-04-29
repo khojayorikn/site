@@ -1,0 +1,157 @@
+body {
+  background: black;
+  padding: 0;
+  margin:0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  z-index: -2;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: sticky;
+  top:0%;
+  margin-left: auto;
+}
+
+.menutext {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50pt;
+  fill:black;
+}
+
+.menubutton:hover {
+  fill:white;
+  transition: fill .2s;
+}
+
+.menubutton {
+  margin-left: 20px;
+  fill:red;
+
+}
+
+
+.bg {
+  position:absolute;
+  right:0;
+  height:100vh;
+  z-index: -2;
+}
+
+.name {
+  color:white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 80pt;
+  position: absolute;
+  z-index: 2;
+}
+
+
+.box {
+  z-index: -1;
+  background: white;
+  width:0px;
+  height:90px;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.one{
+  background-image: url(img.jpg);
+}
+
+.two{
+  background-image: url(img2.jpg);
+}
+
+.three{
+  background-image: url(img3.jpg);
+}
+
+
+.about {
+}
+
+.portfolio {
+
+}
+
+.contact {
+}
+
+.shape {
+}
+
+
+@media screen and (max-width:800px){
+  .bg {
+    bottom:0;
+    right:0;
+  }
+  .menu {
+    top:40%;
+  }
+  .name {
+left:0;
+
+  }
+.shape {
+width:300px;
+
+}
+.box {
+  width:400px;
+  height:68px;
+}
+}
+.web {
+  font-size: 30pt;
+}
+
+.bio {
+color:white;
+position: absolute;
+top:30%;
+font-family: sans-serif;
+width:450px;
+font-size: 40px;
+font-weight: bold;
+;
+
+}
+
+.photo {
+width:500px;
+position: absolute;
+right:15%;
+top:30%;
+
+}
+.biocon {
+  position: relative;
+  top:20%;
+  height:800px;
+  left:20%;
+}
+
+.aboutbg {
+
+  position: absolute;
+  z-index: -1;
+  left:0;
+  height:100vh;
+  top:0;
+  transform: scaleX(-1);
+}
+
+.aboutbg2 {
+
+  position: absolute;
+  z-index: -1;
+  right:-5%;
+  height:100vh;
+  top:0;
+}
