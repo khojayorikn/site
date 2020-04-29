@@ -17,8 +17,8 @@ body {
 }
 
 .menutext {
-  font-family: sans-serif;
-  font-size: 60pt;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50pt;
   fill:black;
 }
 
@@ -30,6 +30,7 @@ body {
 .menubutton {
   margin-left: 20px;
   fill:red;
+
 }
 
 
@@ -42,10 +43,10 @@ body {
 
 .name {
   color:white;
-  font-family: sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 80pt;
   position: absolute;
-  left:10%;
+  left:9.7%;
   z-index: 2;
 }
 
@@ -55,24 +56,23 @@ body {
   left:0;
   z-index: -1;
   background: white;
-  width:300px;
-  height:91.09px;
+  width:0px;
+  height:90px;
+  font-family: 'Oswald', sans-serif;
 }
 
 
 .one{
-  background-image: url(img.jpg);
+  background-image: url(https://komkhojayori.com/img.jpg);
 }
 
 .two{
-  background-image: url(img2.jpg);
+  background-image: url(https://komkhojayori.com/img2.jpg);
 }
 
 .three{
-  background-image: url(img3.jpg);
+  background-image: url(https://komkhojayori.com/img3.jpg);
 }
-/* Add padding and border to inner content
-for better animation effect */
 
 
 .about {
@@ -114,5 +114,5 @@ width:300px;
 }
 }
 .web {
-  font-size: 40pt;
+  font-size: 30pt;
 }
